@@ -17,7 +17,7 @@ import matplotlib
 class Stocker:
 
     # Initialization requires a ticker symbol
-    def __init__(self, ticker, exchange="WIKI"):
+    def __init__(self, ticker):
 
         # Enforce capitalization
         ticker = ticker.upper()
